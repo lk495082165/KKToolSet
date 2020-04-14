@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBC0A8D22445AA8E005E2F67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC0A8D12445AA8E005E2F67 /* AppDelegate.m */; };
+		FBC0A8D52445AA8E005E2F67 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC0A8D42445AA8E005E2F67 /* SceneDelegate.m */; };
+		FBC0A8D82445AA8E005E2F67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC0A8D72445AA8E005E2F67 /* ViewController.m */; };
+		FBC0A8DB2445AA8E005E2F67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC0A8D92445AA8E005E2F67 /* Main.storyboard */; };
+		FBC0A8DD2445AA8F005E2F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC0A8DC2445AA8F005E2F67 /* Assets.xcassets */; };
+		FBC0A8E02445AA8F005E2F67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC0A8DE2445AA8F005E2F67 /* LaunchScreen.storyboard */; };
+		FBC0A8E32445AA8F005E2F67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC0A8E22445AA8F005E2F67 /* main.m */; };
+		FBC0A8ED2445AA90005E2F67 /* KKToolSetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC0A8EC2445AA90005E2F67 /* KKToolSetTests.m */; };
+		FBC0A8F82445AA90005E2F67 /* KKToolSetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC0A8F72445AA90005E2F67 /* KKToolSetUITests.m */; };
+		FBC0A91A2445AC2D005E2F67 /* KKImageCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC0A9132445AC2D005E2F67 /* KKImageCompress.m */; };
+		FBC0A91B2445AC2D005E2F67 /* KKSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC0A9152445AC2D005E2F67 /* KKSystemInfo.m */; };
+		FBC0A91C2445AC2D005E2F67 /* KKRegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC0A9172445AC2D005E2F67 /* KKRegularExpression.m */; };
+		FBC0A91D2445AC2D005E2F67 /* KKDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC0A9192445AC2D005E2F67 /* KKDateFormatter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBC0A8E92445AA90005E2F67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBC0A8C52445AA8E005E2F67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBC0A8CC2445AA8E005E2F67;
+			remoteInfo = KKToolSet;
+		};
+		FBC0A8F42445AA90005E2F67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBC0A8C52445AA8E005E2F67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBC0A8CC2445AA8E005E2F67;
+			remoteInfo = KKToolSet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBC0A8CD2445AA8E005E2F67 /* KKToolSet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKToolSet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC0A8D02445AA8E005E2F67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBC0A8D12445AA8E005E2F67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBC0A8D32445AA8E005E2F67 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FBC0A8D42445AA8E005E2F67 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FBC0A8D62445AA8E005E2F67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBC0A8D72445AA8E005E2F67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBC0A8DA2445AA8E005E2F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBC0A8DC2445AA8F005E2F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBC0A8DF2445AA8F005E2F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBC0A8E12445AA8F005E2F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC0A8E22445AA8F005E2F67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBC0A8E82445AA90005E2F67 /* KKToolSetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKToolSetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC0A8EC2445AA90005E2F67 /* KKToolSetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKToolSetTests.m; sourceTree = "<group>"; };
+		FBC0A8EE2445AA90005E2F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC0A8F32445AA90005E2F67 /* KKToolSetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKToolSetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC0A8F72445AA90005E2F67 /* KKToolSetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKToolSetUITests.m; sourceTree = "<group>"; };
+		FBC0A8F92445AA90005E2F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC0A9122445AC2D005E2F67 /* KKDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKDateFormatter.h; sourceTree = "<group>"; };
+		FBC0A9132445AC2D005E2F67 /* KKImageCompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKImageCompress.m; sourceTree = "<group>"; };
+		FBC0A9142445AC2D005E2F67 /* KKRegularExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKRegularExpression.h; sourceTree = "<group>"; };
+		FBC0A9152445AC2D005E2F67 /* KKSystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSystemInfo.m; sourceTree = "<group>"; };
+		FBC0A9162445AC2D005E2F67 /* KKSystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSystemInfo.h; sourceTree = "<group>"; };
+		FBC0A9172445AC2D005E2F67 /* KKRegularExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKRegularExpression.m; sourceTree = "<group>"; };
+		FBC0A9182445AC2D005E2F67 /* KKImageCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKImageCompress.h; sourceTree = "<group>"; };
+		FBC0A9192445AC2D005E2F67 /* KKDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKDateFormatter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBC0A8CA2445AA8E005E2F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC0A8E52445AA90005E2F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC0A8F02445AA90005E2F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBC0A8C42445AA8E005E2F67 = {
+			isa = PBXGroup;
+			children = (
+				FBC0A8CF2445AA8E005E2F67 /* KKToolSet */,
+				FBC0A8EB2445AA90005E2F67 /* KKToolSetTests */,
+				FBC0A8F62445AA90005E2F67 /* KKToolSetUITests */,
+				FBC0A8CE2445AA8E005E2F67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBC0A8CE2445AA8E005E2F67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBC0A8CD2445AA8E005E2F67 /* KKToolSet.app */,
+				FBC0A8E82445AA90005E2F67 /* KKToolSetTests.xctest */,
+				FBC0A8F32445AA90005E2F67 /* KKToolSetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBC0A8CF2445AA8E005E2F67 /* KKToolSet */ = {
+			isa = PBXGroup;
+			children = (
+				FBC0A8D02445AA8E005E2F67 /* AppDelegate.h */,
+				FBC0A8D12445AA8E005E2F67 /* AppDelegate.m */,
+				FBC0A9112445AC2D005E2F67 /* ToolSetClass */,
+				FBC0A8D32445AA8E005E2F67 /* SceneDelegate.h */,
+				FBC0A8D42445AA8E005E2F67 /* SceneDelegate.m */,
+				FBC0A8D62445AA8E005E2F67 /* ViewController.h */,
+				FBC0A8D72445AA8E005E2F67 /* ViewController.m */,
+				FBC0A8D92445AA8E005E2F67 /* Main.storyboard */,
+				FBC0A8DC2445AA8F005E2F67 /* Assets.xcassets */,
+				FBC0A8DE2445AA8F005E2F67 /* LaunchScreen.storyboard */,
+				FBC0A8E12445AA8F005E2F67 /* Info.plist */,
+				FBC0A8E22445AA8F005E2F67 /* main.m */,
+			);
+			path = KKToolSet;
+			sourceTree = "<group>";
+		};
+		FBC0A8EB2445AA90005E2F67 /* KKToolSetTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBC0A8EC2445AA90005E2F67 /* KKToolSetTests.m */,
+				FBC0A8EE2445AA90005E2F67 /* Info.plist */,
+			);
+			path = KKToolSetTests;
+			sourceTree = "<group>";
+		};
+		FBC0A8F62445AA90005E2F67 /* KKToolSetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBC0A8F72445AA90005E2F67 /* KKToolSetUITests.m */,
+				FBC0A8F92445AA90005E2F67 /* Info.plist */,
+			);
+			path = KKToolSetUITests;
+			sourceTree = "<group>";
+		};
+		FBC0A9112445AC2D005E2F67 /* ToolSetClass */ = {
+			isa = PBXGroup;
+			children = (
+				FBC0A9122445AC2D005E2F67 /* KKDateFormatter.h */,
+				FBC0A9132445AC2D005E2F67 /* KKImageCompress.m */,
+				FBC0A9142445AC2D005E2F67 /* KKRegularExpression.h */,
+				FBC0A9152445AC2D005E2F67 /* KKSystemInfo.m */,
+				FBC0A9162445AC2D005E2F67 /* KKSystemInfo.h */,
+				FBC0A9172445AC2D005E2F67 /* KKRegularExpression.m */,
+				FBC0A9182445AC2D005E2F67 /* KKImageCompress.h */,
+				FBC0A9192445AC2D005E2F67 /* KKDateFormatter.m */,
+			);
+			path = ToolSetClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBC0A8CC2445AA8E005E2F67 /* KKToolSet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC0A8FC2445AA90005E2F67 /* Build configuration list for PBXNativeTarget "KKToolSet" */;
+			buildPhases = (
+				FBC0A8C92445AA8E005E2F67 /* Sources */,
+				FBC0A8CA2445AA8E005E2F67 /* Frameworks */,
+				FBC0A8CB2445AA8E005E2F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKToolSet;
+			productName = KKToolSet;
+			productReference = FBC0A8CD2445AA8E005E2F67 /* KKToolSet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBC0A8E72445AA90005E2F67 /* KKToolSetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC0A8FF2445AA90005E2F67 /* Build configuration list for PBXNativeTarget "KKToolSetTests" */;
+			buildPhases = (
+				FBC0A8E42445AA90005E2F67 /* Sources */,
+				FBC0A8E52445AA90005E2F67 /* Frameworks */,
+				FBC0A8E62445AA90005E2F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBC0A8EA2445AA90005E2F67 /* PBXTargetDependency */,
+			);
+			name = KKToolSetTests;
+			productName = KKToolSetTests;
+			productReference = FBC0A8E82445AA90005E2F67 /* KKToolSetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBC0A8F22445AA90005E2F67 /* KKToolSetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC0A9022445AA90005E2F67 /* Build configuration list for PBXNativeTarget "KKToolSetUITests" */;
+			buildPhases = (
+				FBC0A8EF2445AA90005E2F67 /* Sources */,
+				FBC0A8F02445AA90005E2F67 /* Frameworks */,
+				FBC0A8F12445AA90005E2F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBC0A8F52445AA90005E2F67 /* PBXTargetDependency */,
+			);
+			name = KKToolSetUITests;
+			productName = KKToolSetUITests;
+			productReference = FBC0A8F32445AA90005E2F67 /* KKToolSetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBC0A8C52445AA8E005E2F67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "程强";
+				TargetAttributes = {
+					FBC0A8CC2445AA8E005E2F67 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					FBC0A8E72445AA90005E2F67 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = FBC0A8CC2445AA8E005E2F67;
+					};
+					FBC0A8F22445AA90005E2F67 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = FBC0A8CC2445AA8E005E2F67;
+					};
+				};
+			};
+			buildConfigurationList = FBC0A8C82445AA8E005E2F67 /* Build configuration list for PBXProject "KKToolSet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBC0A8C42445AA8E005E2F67;
+			productRefGroup = FBC0A8CE2445AA8E005E2F67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBC0A8CC2445AA8E005E2F67 /* KKToolSet */,
+				FBC0A8E72445AA90005E2F67 /* KKToolSetTests */,
+				FBC0A8F22445AA90005E2F67 /* KKToolSetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBC0A8CB2445AA8E005E2F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC0A8E02445AA8F005E2F67 /* LaunchScreen.storyboard in Resources */,
+				FBC0A8DD2445AA8F005E2F67 /* Assets.xcassets in Resources */,
+				FBC0A8DB2445AA8E005E2F67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC0A8E62445AA90005E2F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC0A8F12445AA90005E2F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBC0A8C92445AA8E005E2F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC0A91C2445AC2D005E2F67 /* KKRegularExpression.m in Sources */,
+				FBC0A8D82445AA8E005E2F67 /* ViewController.m in Sources */,
+				FBC0A91A2445AC2D005E2F67 /* KKImageCompress.m in Sources */,
+				FBC0A91B2445AC2D005E2F67 /* KKSystemInfo.m in Sources */,
+				FBC0A91D2445AC2D005E2F67 /* KKDateFormatter.m in Sources */,
+				FBC0A8D22445AA8E005E2F67 /* AppDelegate.m in Sources */,
+				FBC0A8E32445AA8F005E2F67 /* main.m in Sources */,
+				FBC0A8D52445AA8E005E2F67 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC0A8E42445AA90005E2F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC0A8ED2445AA90005E2F67 /* KKToolSetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC0A8EF2445AA90005E2F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC0A8F82445AA90005E2F67 /* KKToolSetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBC0A8EA2445AA90005E2F67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBC0A8CC2445AA8E005E2F67 /* KKToolSet */;
+			targetProxy = FBC0A8E92445AA90005E2F67 /* PBXContainerItemProxy */;
+		};
+		FBC0A8F52445AA90005E2F67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBC0A8CC2445AA8E005E2F67 /* KKToolSet */;
+			targetProxy = FBC0A8F42445AA90005E2F67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBC0A8D92445AA8E005E2F67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC0A8DA2445AA8E005E2F67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBC0A8DE2445AA8F005E2F67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC0A8DF2445AA8F005E2F67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBC0A8FA2445AA90005E2F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBC0A8FB2445AA90005E2F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBC0A8FD2445AA90005E2F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36G2AMGTVF;
+				INFOPLIST_FILE = KKToolSet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huime.KKToolSet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBC0A8FE2445AA90005E2F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36G2AMGTVF;
+				INFOPLIST_FILE = KKToolSet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huime.KKToolSet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBC0A9002445AA90005E2F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36G2AMGTVF;
+				INFOPLIST_FILE = KKToolSetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huime.KKToolSetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKToolSet.app/KKToolSet";
+			};
+			name = Debug;
+		};
+		FBC0A9012445AA90005E2F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36G2AMGTVF;
+				INFOPLIST_FILE = KKToolSetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huime.KKToolSetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKToolSet.app/KKToolSet";
+			};
+			name = Release;
+		};
+		FBC0A9032445AA90005E2F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36G2AMGTVF;
+				INFOPLIST_FILE = KKToolSetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huime.KKToolSetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KKToolSet;
+			};
+			name = Debug;
+		};
+		FBC0A9042445AA90005E2F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36G2AMGTVF;
+				INFOPLIST_FILE = KKToolSetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huime.KKToolSetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KKToolSet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBC0A8C82445AA8E005E2F67 /* Build configuration list for PBXProject "KKToolSet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC0A8FA2445AA90005E2F67 /* Debug */,
+				FBC0A8FB2445AA90005E2F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC0A8FC2445AA90005E2F67 /* Build configuration list for PBXNativeTarget "KKToolSet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC0A8FD2445AA90005E2F67 /* Debug */,
+				FBC0A8FE2445AA90005E2F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC0A8FF2445AA90005E2F67 /* Build configuration list for PBXNativeTarget "KKToolSetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC0A9002445AA90005E2F67 /* Debug */,
+				FBC0A9012445AA90005E2F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC0A9022445AA90005E2F67 /* Build configuration list for PBXNativeTarget "KKToolSetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC0A9032445AA90005E2F67 /* Debug */,
+				FBC0A9042445AA90005E2F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBC0A8C52445AA8E005E2F67 /* Project object */;
+}
